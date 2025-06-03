@@ -1,0 +1,13 @@
+{
+  "name": "outbox-processor",
+  "version": "1.0.0",
+  "description": "Outbox processor service for event handling",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "mariadb": "^3.2.3",
+    "amqplib": "^0.10.3"
+  }
+} 
